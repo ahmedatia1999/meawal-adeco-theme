@@ -28,10 +28,7 @@
 
 **[معول](https://www.meawal.com)** — [تصميم مواقع في الرياض](https://www.meawal.com/)، هوية بصرية، وتطوير حلول رقمية للقطاع الخاص والحكومي في السعودية.
 
-| | |
-|---|---|
-| الموقع | [www.meawal.com](https://www.meawal.com) |
-| البريد | hello@meawal.com |
+- الموقع: [www.meawal.com](https://www.meawal.com)
 
 <!-- أضف روابط: LinkedIn، تويتر، مستودعات أخرى إن رغبت -->
 
