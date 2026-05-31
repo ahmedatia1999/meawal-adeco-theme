@@ -1,0 +1,265 @@
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    #header {
+        height: auto;
+        padding: 10px 0
+    }
+
+    .main_menu,
+    .btn-contact {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .is-closed {
+        display: block;
+    }
+
+    .logo-site img {
+        max-width: 220px;
+    }
+
+    .mmenu .main_menu {
+        display: block;
+    }
+
+    .main_menu>li {
+        margin-bottom: 20px;
+    }
+
+    .mmenu .main_menu>li .btn-site {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        position: relative !important;
+    }
+
+    .dropdown-menu {
+        transform: translateY(10px) !important;
+    }
+
+    .mega-menu .dropdown-menu {
+        transform: translate(-50%, 15px) !important;
+        width: 100%;
+    }
+
+    .dropdown-toggle::after {
+        top: 10px;
+        right: 0;
+    }
+
+    .rtl-style .dropdown-toggle::after {
+        left: 0;
+        right: auto;
+    }
+
+    .section_home {
+        min-height: 550px;
+        background-size: cover !important
+    }
+
+    .home_txt,
+    .home_txt>p {
+        width: 100%;
+    }
+
+    .home_txt>h1 {
+        font-size: 24px;
+    }
+
+    .thumb-missions {
+        display: none;
+    }
+
+    .txt-mission {
+        width: 100%;
+    }
+
+    .cont-mission {
+        position: relative;
+        padding: 0;
+    }
+
+    .txt-mission p {
+        font-size: 30px;
+    }
+
+    .txt-mission>span {
+        width: 100%;
+    }
+
+    #services-slider {
+        position: relative;
+    }
+
+    .section_services {
+        position: relative;
+        padding: 60px 0;
+    }
+
+    #services-slider .owl-stage {
+        padding: 0px !important;
+    }
+
+    #services-slider .owl-nav {
+        right: 0;
+        top: -70px;
+    }
+
+    .sec_head h2 {
+        font-size: 20px;
+    }
+
+    .item-goal {
+        margin-bottom: 24px;
+        height: auto;
+    }
+
+    .section_about {
+        padding: 40px 0;
+    }
+
+    .txt-about {
+        padding: 0;
+    }
+
+    .row-statistics {
+        margin-bottom: 30px;
+    }
+
+    .col-lg-3:not(:last-child) .item-certificat:before {
+        width: 100%;
+        height: 1px;
+        top: auto;
+        bottom: 0;
+    }
+
+    .txt-consultation {
+        width: 100%;
+    }
+
+    .item-article {
+        margin-bottom: 24px;
+    }
+
+    footer {
+        background-size: cover !important;
+    }
+
+    .txt-consultation.txt-consultation-foter {
+        width: 100%;
+    }
+
+    .txt-consultation h2 {
+        font-size: 27px;
+    }
+
+    .subscribe-wrapper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .subscribe-wrapper p,
+    .form-subscribe {
+        width: 90%;
+    }
+
+    .menu-ft-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .menu-ft-wrapper>div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .menu-ft-wrapper>div:nth-child(1) {
+        width: 100%;
+    }
+
+    .bottom-ft {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .bg-contact-us .contact-title {
+        margin-top: 24px;
+    }
+
+    .envc-hero .envc-hero-title {
+        font-size: 32px;
+    }
+
+    .envc-hero-text {
+        font-size: 16px;
+    }
+
+    .clientsSection .clients-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .envc-points-section ul {
+        padding: 30px 15px;
+    }
+
+    .envc-points-section ul li {
+        padding: 26px 0;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .bottom-ft p {
+        margin: 0 !important;
+    }
+
+    .popg-container .popg-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .popg-popup {
+        padding: 40px 20px !important;
+        overflow-y: scroll;
+        height: auto;
+        max-height: 80%;
+    }
+
+    .popg-popup .popg-logos {
+        gap: 10px !important;
+    }
+
+    .quote-mark.quote-mark-top {
+        font-size: 70px !important;
+    }
+
+    .quote-mark.quote-mark-bottom {
+        font-size: 70px !important;
+    }
+
+    .adeco-split-grid {
+        flex-direction: column !important;
+    }
+
+    .adeco-split-grid .adeco-split-left {
+        width: 100% !important;
+    }
+
+    .adeco-split-grid .adeco-split-right {
+        width: 100% !important;
+    }
+
+    .col-lg-3:not(:last-child) .item-statistic {
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {}
